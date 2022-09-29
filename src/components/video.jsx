@@ -1,6 +1,6 @@
 export const Video = () => (
     <div style={{position:'fixed', zIndex:'-1'}}>
-      <video loop autoPlay >
+      <video loop autoPlay mute >
         <source
           src="./pandora.mp4"
           type="video/mp4"
