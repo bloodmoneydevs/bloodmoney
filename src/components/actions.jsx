@@ -7,7 +7,7 @@ const Action = () => (
             <Button rounded={'sm'} px={9} height={"2%"} bg={'gray.800'} 
             color={'gray.100'} _hover={{color:'gray.800', bg:'whiteAlpha.700'}}>
                 <Link to="/info">
-                Learn
+                Indulge
                 </Link>
             </Button>
             <Button
@@ -19,6 +19,16 @@ const Action = () => (
                 _hover={{ bg: 'red.500' }}
                 fontFamily='El Messiri'>
                 Atone
+            </Button>
+            <Button
+                height={"2%"}
+                rounded={'sm'}
+                px={5}
+                colorScheme={'red'}
+                bg={'gray.800'}
+                _hover={{color:'gray.800', bg:'whiteAlpha.700'}}
+                fontFamily='El Messiri'>
+                Demonomics
             </Button>
         </Stack>
     </Center>

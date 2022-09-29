@@ -12,7 +12,7 @@ export const CTA = () => (
             textShadow: "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #DC143C, 0 0 40px #DC143C, 0 0 50px #DC143C, 0 0 60px #DC143C, 0 0 70px #DC143C"
           }}
           position={'relative'} fontFamily='El Messiri' as={'span'} color={'red.700'} fontSize={'5xl'}>
-            $DIYAH
+            $VESSEL
             </Text>
             <Heading
             style={{
@@ -20,7 +20,6 @@ export const CTA = () => (
                 textShadow: "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9400D3, 0 0 40px #9400D3, 0 0 50px #9400D3, 0 0 60px #9400D3, 0 0 70px #9400D3"
               }}
             color={'red.800'}
-            // bg={'whiteAlpha.300'}
             fontFamily='El Messiri'
             fontWeight={300}
             fontSize={{ base: '3xl', sm: '4xl', md: '9xl' }}

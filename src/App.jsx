@@ -12,6 +12,7 @@ const App = () => (
         <Route path="/">
           <Route index element={<Home />} />
           <Route path="info" element={<Info />} />
+          <Route path="character" element={<Character />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
